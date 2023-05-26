@@ -1,0 +1,10 @@
+[0m20:28:30.677769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d68e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d7fe10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107d7ffd0>]}
+
+
+============================== 20:28:30.683991 | 09644745-391e-46e6-ac86-b4a5107ab887 ==============================
+[0m20:28:30.683991 [info ] [MainThread]: Running with dbt=1.5.0
+[0m20:28:30.684843 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/pranaymarella/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:30.686382 [debug] [MainThread]: Starter project path: /usr/local/lib/python3.11/site-packages/dbt/include/starter_project
+[0m20:28:30.696056 [debug] [MainThread]: Command `dbt init` succeeded at 20:28:30.695711 after 0.05 seconds
+[0m20:28:30.696620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10456eed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104651a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104651ad0>]}
+[0m20:28:30.697094 [debug] [MainThread]: Flushing usage events
